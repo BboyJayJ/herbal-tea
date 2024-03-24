@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+body {
+    background-color: #22ac6c;
+    font-family: 標楷體;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*flex style*/
+.flexbox {
+    display: flex;
+}
+
+.flexWrap-w {
+    flex-wrap: wrap;
+}
+
+.flexJustifyContent-sa {
+    justify-content: space-around;
+}
+
+.flexJustifyContent-sb {
+    justify-content: space-between;
+}
+
+.flexJustifyContent-e {
+    justify-self: end;
+}
+
+.flexJustifyContent-c {
+    justify-content: center;
+}
+
+.f-direction-c {
+    flex-direction: column;
+}
+
+.f-direction-rr {
+    flex-direction: row-reverse;
+}
+
+/*pc width*/
+.pc-col1 {
+    width: 8.33%;
+}
+
+.pc-col2 {
+    width: 16.66%;
+}
+
+.pc-col3 {
+    width: 25%;
+}
+
+.pc-col4 {
+    width: 33.32%;
+}
+
+.pc-col5 {
+    width: 41.65%;
+}
+
+.pc-col6 {
+    width: 50%;
+}
+
+.pc-col7 {
+    width: 58.31%;
+}
+
+.pc-col8 {
+    width: 66.64%;
+}
+
+.pc-col9 {
+    width: 75%;
+}
+
+.pc-col10 {
+    width: 83.3%;
+}
+
+.pc-col11 {
+    width: 91.63%;
+}
+
+.pc-col12 {
+    width: 100%;
+}
+
+.logo>img {
+    width: 100%;
+    max-height: auto;
+    margin: 0;
+    box-shadow: 0 0 10px black;
+}
+
+#main_logo {
+    margin-top: 0;
+}
+
+#main {
+    background-color: black;
+}
+
+/*mainnav style*/
+.mainnav a {
+    font-size: 1.8rem;
+    color: snow;
+}
+
+.mainnav a:hover {
+    color: #22ac6c;
+}
+
+#title {
+    margin: 1.5vw 1.8vw;
+}
+
+#title img:hover {
+    opacity: 0.8;
+}
+
+#main_menu {
+    margin: 1.8vw 1.5vw;
+}
+
+/*product style*/
+
+#product {
+    padding: 5vw;
+    margin: 6vw;
+}
+
+#product h2 {
+    color: snow;
+    font-size: 3rem;
+}
+
+#product p {
+    color: snow;
+    font-size: 1.8rem;
+    margin: 0 2vw;
+}
+
+/*tea_mix style*/
+
+#tea_mix {
+    padding: 5vw;
+    background-color: #006400;
+    border-radius: 25% 0 0 0;
+    margin: 6vw;
+    box-shadow: 0 0 10px black;
+}
+
+#tea_mix h3 {
+    font-size: 3vw;
+    color: snow;
+}
+
+.tea {
+    margin: 0 2vw;
+}
+
+
+.tea>span>div>p {
+    font-size: 2.3rem;
+    color: snow;
+    padding: 0 0.5vw;
+}
+
+.tea>span>div>p:hover {
+    color: lawngreen;
+    cursor: cell;
+}
+
+.price1,
+.price2,
+.price3 {
+    border-bottom: 2px solid snow;
+    width: 45%;
+    margin-top: -2rem;
+}
+
+
+.tea1>p:nth-of-type(2),
+.tea2>p:nth-of-type(2),
+.tea3>p:nth-of-type(2) {
+    color: red;
+}
+
+/*connection style*/
+#connection {
+    padding: 2vw 5vw;
+    margin-top: 3vw;
+    background-color: black;
+}
+
+#connection p {
+    color: snow;
+    font-size: 1.8rem;
+}
