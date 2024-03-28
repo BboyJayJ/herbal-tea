@@ -185,6 +185,8 @@ a {
 #slogan p {
     font-size: 4.5vw;
     text-shadow: 0 0 5px snow;
+    background-image: -webkit-linear-gradient(left, #ffffff, #99ff5a 25%, #e2e2e2 50%, #2fc628 75%, #04994c);
+    box-shadow: 0 0 10px #000;
 }
 
 /*product style*/
@@ -226,25 +228,44 @@ a {
 #effect h3 {
     color: snow;
     font-size: 3vw;
+    margin: 3vw 15vw;
 }
 
 #effect p {
     color: snow;
     font-size: 1.8rem;
-    margin: 1vw 2.8vw;
+    margin: 1vw 22vw;
 }
 
 #effect>div>div>span:nth-of-type(1)>p {
     font-size: 2.2rem;
-    margin: 1vw 1.5vw;
+    margin: 1vw 20vw;
 }
 
+.img>span>img {
+    width: 30%;
+}
+
+.img1>span>img {
+    width: 60%;
+    margin-top: 1vw;
+    margin-bottom: -1vw;
+}
+
+#grass {
+    padding: 0;
+    margin: 0;
+    gap: 1px;
+}
+
+#grass>img {
+    width: 33.2%;
+}
 
 /*tea_mix style*/
-
 #tea_mix {
     padding: 3vw;
-    background-color: #006400;
+    background-color: #013f22;
     border-radius: 15% 0 0 0;
     margin: 25vw;
     box-shadow: 0 0 10px black;
@@ -289,6 +310,7 @@ a {
 /*history style*/
 #history {
     padding: 7vw;
+    background-color: #013f22;
 }
 
 #history h3 {
@@ -304,14 +326,15 @@ a {
 }
 
 #history img {
-    width: 85%;
+    width: 90%;
+    box-shadow: 0 0 10px black;
 }
 
 
 /*connection style*/
 #connection {
     padding: 2vw 5vw;
-    margin-top: 3vw;
+    margin-top: 0;
     background-color: black;
 }
 
