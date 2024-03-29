@@ -178,15 +178,22 @@ a {
     padding: 2vw;
     margin-top: 3vw;
     font-weight: bold;
-    margin: 3vw 20vw;
+    margin: 3vw 22vw;
 }
 
 
-#slogan p {
-    font-size: 4.5vw;
-    text-shadow: 0 0 5px snow;
-    background-image: -webkit-linear-gradient(left, #ffffff, #99ff5a 25%, #e2e2e2 50%, #2fc628 75%, #04994c);
-    box-shadow: 0 0 10px #000;
+.ml15 span {
+    font-size: 4vw;
+    color: snow;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 0.5rem;
+    background-clip: text;
+}
+
+
+.ml15 .word {
+    line-height: 1em;
+    display: inline;
 }
 
 /*product style*/
@@ -231,6 +238,10 @@ a {
     margin: 3vw 15vw;
 }
 
+#effect p:hover {
+    color: #99ff5a;
+}
+
 #effect p {
     color: snow;
     font-size: 1.8rem;
@@ -241,6 +252,7 @@ a {
     font-size: 2.2rem;
     margin: 1vw 20vw;
 }
+
 
 .img>span>img {
     width: 30%;
@@ -289,7 +301,7 @@ a {
 }
 
 .tea>span>div>p:hover {
-    color: lawngreen;
+    color: #99ff5a;
     cursor: cell;
 }
 
@@ -305,6 +317,29 @@ a {
 .tea2>p:nth-of-type(2),
 .tea3>p:nth-of-type(2) {
     color: red;
+}
+
+/*fly-in EF*/
+.fly-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.fly-in.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fly-in1 {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.fly-in1.active1 {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /*history style*/
