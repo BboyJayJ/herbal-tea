@@ -53,55 +53,6 @@ a {
     flex-direction: row-reverse;
 }
 
-/*pc width*/
-.pc-col1 {
-    width: 8.33%;
-}
-
-.pc-col2 {
-    width: 16.66%;
-}
-
-.pc-col3 {
-    width: 25%;
-}
-
-.pc-col4 {
-    width: 33.32%;
-}
-
-.pc-col5 {
-    width: 41.65%;
-}
-
-.pc-col6 {
-    width: 50%;
-}
-
-.pc-col7 {
-    width: 58.31%;
-}
-
-.pc-col8 {
-    width: 66.64%;
-}
-
-.pc-col9 {
-    width: 75%;
-}
-
-.pc-col10 {
-    width: 83.3%;
-}
-
-.pc-col11 {
-    width: 91.63%;
-}
-
-.pc-col12 {
-    width: 100%;
-}
-
 .display-n {
     display: none;
 }
@@ -197,126 +148,13 @@ a {
 }
 
 /*product style*/
-
 #product {
     padding: 5vw;
-    margin: 3vw 25vw;
+    margin: 3vw 8vw;
     background-color: #013f22;
     box-shadow: 0 0 10px black;
-    border-radius: 15% 0% 0% 0%;
-}
-
-#product h3 {
-    color: snow;
-    font-size: 3vw;
-}
-
-#product h4 {
-    color: snow;
-    font-size: 2.5rem;
-    margin: 1.8vw;
-}
-
-#product p {
-    color: snow;
-    font-size: 1.8rem;
-    margin: 0 3vw;
-}
-
-/*effect style*/
-#effect {
-    padding: 5vw 3vw;
-    margin-top: 7rem;
-    background: #013f22;
-    width: 93.95%;
-    box-shadow: 0 0 10px black;
-}
-
-#effect h3 {
-    color: snow;
-    font-size: 3vw;
-    margin: 3vw 15vw;
-}
-
-#effect p:hover {
-    color: #99ff5a;
-}
-
-#effect p {
-    color: snow;
-    font-size: 1.8rem;
-    margin: 1vw 22vw;
-}
-
-#effect>div>div>span:nth-of-type(1)>p {
-    font-size: 2.2rem;
-    margin: 1vw 20vw;
-}
-
-
-.img>span>img {
-    width: 30%;
-}
-
-.img1>span>img {
-    width: 60%;
-    margin-top: 1vw;
-    margin-bottom: -1vw;
-}
-
-#grass {
-    padding: 0;
-    margin: 0;
-    gap: 1px;
-}
-
-#grass>img {
-    width: 33.2%;
-}
-
-/*tea_mix style*/
-#tea_mix {
-    padding: 3vw;
-    background-color: #013f22;
-    border-radius: 15% 0 0 0;
-    margin: 25vw;
-    box-shadow: 0 0 10px black;
-}
-
-#tea_mix h3 {
-    font-size: 3vw;
-    color: snow;
-}
-
-.tea {
-    margin: 0 1.2vw;
-    justify-content: center;
-}
-
-
-.tea>span>div>p {
-    font-size: 2rem;
-    color: snow;
-    padding: 0 0.5vw;
-}
-
-.tea>span>div>p:hover {
-    color: #99ff5a;
-    cursor: cell;
-}
-
-.price1,
-.price2,
-.price3 {
-    border-bottom: 2px solid snow;
-    margin-top: -2rem;
-}
-
-
-.tea1>p:nth-of-type(2),
-.tea2>p:nth-of-type(2),
-.tea3>p:nth-of-type(2) {
-    color: red;
+    border-radius: 5% 0% 0% 0%;
+    width: 70%;
 }
 
 /*fly-in EF*/
@@ -342,30 +180,6 @@ a {
     transform: translateY(0);
 }
 
-/*history style*/
-#history {
-    padding: 7vw;
-    background-color: #013f22;
-}
-
-#history h3 {
-    font-size: 3vw;
-    color: snow;
-    padding: 1vw;
-}
-
-#history p {
-    font-size: 1.8rem;
-    color: snow;
-    margin: 1vw;
-}
-
-#history img {
-    width: 90%;
-    box-shadow: 0 0 10px black;
-}
-
-
 /*connection style*/
 #connection {
     padding: 2vw 5vw;
@@ -376,4 +190,671 @@ a {
 #connection p {
     color: snow;
     font-size: 1.8rem;
+}
+
+
+/*for pc*/
+@media only screen and (min-width:1225px) {
+
+    /*pc width*/
+    .pc-col1 {
+        width: 8.33%;
+    }
+
+    .pc-col2 {
+        width: 16.66%;
+    }
+
+    .pc-col3 {
+        width: 25%;
+    }
+
+    .pc-col4 {
+        width: 33.32%;
+    }
+
+    .pc-col5 {
+        width: 41.65%;
+    }
+
+    .pc-col6 {
+        width: 50%;
+    }
+
+    .pc-col7 {
+        width: 58.31%;
+    }
+
+    .pc-col8 {
+        width: 66.64%;
+    }
+
+    .pc-col9 {
+        width: 75%;
+    }
+
+    .pc-col10 {
+        width: 83.3%;
+    }
+
+    .pc-col11 {
+        width: 91.63%;
+    }
+
+    .pc-col12 {
+        width: 100%;
+    }
+
+
+    /*product style*/
+    #product {
+        padding: 5vw;
+        margin: 3vw 8vw;
+        background-color: #013f22;
+        box-shadow: 0 0 10px black;
+        border-radius: 5% 0% 0% 0%;
+        width: 70%;
+    }
+
+    #product span>img {
+        width: 60%;
+        background-color: #90ee90;
+        box-shadow: 0 0 10px #000;
+        padding: 1vw;
+    }
+
+    #product span>img:hover {
+        width: 70%;
+    }
+
+    #product div p {
+        padding: 2vw;
+        color: red;
+        text-shadow: 0 0 8px #000;
+        font-size: 1.8vw;
+    }
+
+    #product h3 {
+        color: snow;
+        font-size: 3vw;
+    }
+
+    #product h4 {
+        color: snow;
+        font-size: 2.5rem;
+        margin: 1.8vw;
+    }
+
+    #product p {
+        color: snow;
+        font-size: 1.8rem;
+        margin: 0 3vw;
+    }
+
+    /*effect style*/
+    #effect {
+        padding: 5vw 3vw;
+        margin-top: 7rem;
+        background: #013f22;
+        width: 93.95%;
+        box-shadow: 0 0 10px black;
+    }
+
+    #effect h3 {
+        color: snow;
+        font-size: 3vw;
+        margin: 3vw 15vw;
+    }
+
+    #effect p:hover {
+        color: #99ff5a;
+    }
+
+    #effect p {
+        color: snow;
+        font-size: 1.8rem;
+        margin: 1vw 22vw;
+    }
+
+    #effect>div>div>span:nth-of-type(1)>p {
+        font-size: 2.2rem;
+        margin: 1vw 20vw;
+    }
+
+
+    .img>span>img {
+        width: 30%;
+    }
+
+    .img1>span>img {
+        width: 60%;
+        margin-top: 1vw;
+        margin-bottom: -1vw;
+    }
+
+    #grass {
+        padding: 0;
+        margin: 0;
+        gap: 1px;
+    }
+
+    #grass>img {
+        width: 33.2%;
+    }
+
+    /*tea_mix style*/
+    #tea_mix {
+        padding: 3vw;
+        background-color: #013f22;
+        border-radius: 15% 0 0 0;
+        margin: 20vw;
+        box-shadow: 0 0 10px black;
+    }
+
+    #tea_mix h3 {
+        font-size: 3vw;
+        color: snow;
+        margin: 1.5vw;
+    }
+
+    .tea {
+        margin: 0 1.2vw;
+        justify-content: center;
+    }
+
+
+    .tea>span>div>p {
+        font-size: 2rem;
+        color: snow;
+        padding: 0 1vw;
+    }
+
+    .tea>span>div>p:hover {
+        color: #99ff5a;
+        cursor: cell;
+    }
+
+    .price1,
+    .price2,
+    .price3 {
+        border-bottom: 2px solid snow;
+        margin: -2rem 8vw 1.2vw 8vw;
+    }
+
+    .tea1,
+    .tea2,
+    .tea3 {
+        margin: 0 8vw;
+    }
+
+
+    .tea1>p:nth-of-type(2),
+    .tea2>p:nth-of-type(2),
+    .tea3>p:nth-of-type(2) {
+        color: red;
+    }
+
+
+    /*history style*/
+    #history {
+        padding: 7vw;
+        background-color: #013f22;
+    }
+
+    #history h3 {
+        font-size: 3vw;
+        color: snow;
+        padding: 1vw;
+    }
+
+    #history p {
+        font-size: 1.8rem;
+        color: snow;
+        margin: 1vw;
+        text-align: start;
+    }
+
+    #history img {
+        width: 90%;
+        box-shadow: 0 0 10px black;
+    }
+
+}
+
+/*for pad*/
+@media only screen and (min-width: 1086px) and (max-width: 1224px) {
+
+    /*pad width*/
+    .pad-col1 {
+        width: 10%;
+    }
+
+    .pad-col2 {
+        width: 20%;
+    }
+
+    .pad-col3 {
+        width: 30%;
+    }
+
+    .pad-col4 {
+        width: 40%;
+    }
+
+    .pad-col5 {
+        width: 50%;
+    }
+
+    .pad-col6 {
+        width: 60%;
+    }
+
+    .pad-col7 {
+        width: 70%;
+    }
+
+    .pad-col8 {
+        width: 80%;
+    }
+
+    .pad-col9 {
+        width: 90%;
+    }
+
+    .pad-col10 {
+        width: 100%;
+    }
+
+    #title img {
+        width: 95%;
+    }
+
+    /*mainnav style*/
+    .mainnav a {
+        font-size: 1.5rem;
+        color: snow;
+        padding: 1.8vw 1.2vw;
+    }
+
+    #grass img {
+        width: 33.3%;
+    }
+
+    .ml15 span {
+        font-size: 3.7vw;
+    }
+
+    .go_top {
+        font-size: 18px;
+    }
+
+
+    /*product style*/
+    #product {
+        padding: 4vw;
+        margin: 3vw 8vw;
+        background-color: #013f22;
+        box-shadow: 0 0 10px black;
+        border-radius: 5% 0% 0% 0%;
+        width: 70%;
+    }
+
+    #product span>img {
+        width: 50%;
+        background-color: #90ee90;
+        box-shadow: 0 0 10px #000;
+        padding: 1vw;
+    }
+
+    #product span>img:hover {
+        width: 60%;
+    }
+
+    #product div p {
+        padding: 2vw;
+        color: red;
+        text-shadow: 0 0 8px #000;
+        font-size: 1.8vw;
+    }
+
+    #product h3 {
+        color: snow;
+        font-size: 3vw;
+    }
+
+    #product h4 {
+        color: snow;
+        font-size: 2rem;
+        margin: 1.8vw;
+    }
+
+    #product p {
+        color: snow;
+        font-size: 1.8rem;
+        margin: 0 3vw;
+    }
+
+    /*effect style*/
+    #effect {
+        padding: 5vw 3vw;
+        margin-top: 7rem;
+        background: #013f22;
+        width: 93.95%;
+        box-shadow: 0 0 10px black;
+    }
+
+    #effect h3 {
+        color: snow;
+        font-size: 3vw;
+        margin: 2.5vw 10vw;
+    }
+
+    #effect p:hover {
+        color: #99ff5a;
+    }
+
+    #effect p {
+        color: snow;
+        font-size: 1.5rem;
+        margin: 1vw 17vw;
+    }
+
+    #effect>div>div>span:nth-of-type(1)>p {
+        font-size: 2rem;
+        margin: 2vw 15vw;
+    }
+
+
+    .img>span>img {
+        width: 40%;
+    }
+
+    .img1>span>img {
+        width: 60%;
+        margin-top: 1vw;
+        margin-bottom: -1vw;
+    }
+
+    /*tea_mix style*/
+    #tea_mix {
+        padding: 3vw;
+        background-color: #013f22;
+        border-radius: 15% 0 0 0;
+        margin: 15vw;
+        box-shadow: 0 0 10px black;
+    }
+
+    #tea_mix h3 {
+        font-size: 3vw;
+        color: snow;
+        margin: 1.5vw;
+    }
+
+    .tea {
+        margin: 0 1.2vw;
+        justify-content: center;
+    }
+
+
+    .tea>span>div>p {
+        font-size: 1.8rem;
+        color: snow;
+        padding: 0 3vw;
+    }
+
+    .tea>span>div>p:hover {
+        color: #99ff5a;
+        cursor: cell;
+    }
+
+    .price1,
+    .price2,
+    .price3 {
+        border-bottom: 2px solid snow;
+        margin: -2rem 6vw 1.2vw 6vw;
+    }
+
+    .tea1,
+    .tea2,
+    .tea3 {
+        margin: 0 6vw;
+    }
+
+
+    .tea1>p:nth-of-type(2),
+    .tea2>p:nth-of-type(2),
+    .tea3>p:nth-of-type(2) {
+        color: red;
+    }
+
+    /*history style*/
+    #history {
+        padding: 5vw;
+        background-color: #013f22;
+    }
+
+    #history h3 {
+        font-size: 3vw;
+        color: snow;
+        padding: 1vw;
+    }
+
+    #history p {
+        font-size: 1.6rem;
+        color: snow;
+        margin: 1vw;
+        text-align: start;
+    }
+
+    #history img {
+        width: 80%;
+        box-shadow: 0 0 10px black;
+    }
+
+    #connection p {
+        color: snow;
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
+/*for phone*/
+@media only screen and (max-width:1085px) {
+
+    body {
+        width: 100%;
+    }
+
+    #title img {
+        width: 80%;
+    }
+
+    /*mainnav style*/
+    .mainnav a {
+        font-size: 1.2rem;
+        color: snow;
+        padding: 1rem 0.6rem;
+    }
+
+    #grass img {
+        width: 33.3%;
+    }
+
+    .ml15 span {
+        font-size: 3.7vw;
+    }
+
+    .go_top {
+        font-size: 16px;
+    }
+
+
+    /*product style*/
+    #product {
+        padding: 4vw;
+        margin: 3vw 8vw;
+        background-color: #013f22;
+        box-shadow: 0 0 10px black;
+        border-radius: 5% 0% 0% 0%;
+        width: 70%;
+    }
+
+    #product span>img {
+        width: 50%;
+        background-color: #90ee90;
+        box-shadow: 0 0 10px #000;
+        padding: 1vw;
+    }
+
+    #product span>img:hover {
+        width: 60%;
+    }
+
+    #product div p {
+        padding: 2vw;
+        color: red;
+        text-shadow: 0 0 8px #000;
+        font-size: 1.8vw;
+    }
+
+    #product h3 {
+        color: snow;
+        font-size: 3vw;
+    }
+
+    #product h4 {
+        color: snow;
+        font-size: 2rem;
+        margin: 1.8vw;
+    }
+
+    #product p {
+        color: snow;
+        font-size: 1.8rem;
+        margin: 0 3vw;
+    }
+
+    /*effect style*/
+    #effect {
+        padding: 5vw 3vw;
+        margin-top: 7rem;
+        background: #013f22;
+        width: 93.95%;
+        box-shadow: 0 0 10px black;
+    }
+
+    #effect h3 {
+        color: snow;
+        font-size: 3vw;
+        margin: 2.5vw 10vw;
+    }
+
+    #effect p:hover {
+        color: #99ff5a;
+    }
+
+    #effect p {
+        color: snow;
+        font-size: 1.5rem;
+        margin: 1vw 17vw;
+    }
+
+    #effect>div>div>span:nth-of-type(1)>p {
+        font-size: 2rem;
+        margin: 2vw 15vw;
+    }
+
+
+    .img>span>img {
+        width: 40%;
+    }
+
+    .img1>span>img {
+        width: 60%;
+        margin-top: 1vw;
+        margin-bottom: -1vw;
+    }
+
+    /*tea_mix style*/
+    #tea_mix {
+        padding: 3vw;
+        background-color: #013f22;
+        border-radius: 15% 0 0 0;
+        margin: 15vw;
+        box-shadow: 0 0 10px black;
+    }
+
+    #tea_mix h3 {
+        font-size: 3vw;
+        color: snow;
+        margin: 1.5vw;
+    }
+
+    .tea {
+        margin: 0 1.2vw;
+        justify-content: center;
+    }
+
+
+    .tea>span>div>p {
+        font-size: 1.8rem;
+        color: snow;
+        padding: 0 1.5vw;
+    }
+
+    .tea>span>div>p:hover {
+        color: #99ff5a;
+        cursor: cell;
+    }
+
+    .price1,
+    .price2,
+    .price3 {
+        border-bottom: 2px solid snow;
+        margin: -2rem 6vw 1.2vw 6vw;
+    }
+
+    .tea1,
+    .tea2,
+    .tea3 {
+        margin: 0 6vw;
+    }
+
+
+    .tea1>p:nth-of-type(2),
+    .tea2>p:nth-of-type(2),
+    .tea3>p:nth-of-type(2) {
+        color: red;
+    }
+
+    /*history style*/
+    #history {
+        padding: 5vw;
+        background-color: #013f22;
+    }
+
+    #history h3 {
+        font-size: 3vw;
+        color: snow;
+        padding: 1vw;
+    }
+
+    #history p {
+        font-size: 1.6rem;
+        color: snow;
+        margin: 1vw;
+        text-align: start;
+    }
+
+    #history img {
+        width: 80%;
+        box-shadow: 0 0 10px black;
+    }
+
+    #connection p {
+        color: snow;
+        font-size: 1.5rem;
+    }
 }
