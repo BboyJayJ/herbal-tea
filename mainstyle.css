@@ -101,7 +101,7 @@ a {
 
 /*mainnav style*/
 .mainnav a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: snow;
     padding: 1.5vw;
 }
@@ -471,7 +471,7 @@ a {
 
     /*mainnav style*/
     .mainnav a {
-        font-size: 1.5rem;
+        font-size: 1.8vw;
         color: snow;
         padding: 1.8vw 1.2vw;
     }
@@ -673,7 +673,7 @@ a {
 
     /*mainnav style*/
     .mainnav a {
-        font-size: 1.2rem;
+        font-size: 1.5vw;
         color: snow;
         padding: 1rem 0.6rem;
     }
