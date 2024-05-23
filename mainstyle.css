@@ -667,7 +667,8 @@ a {
 /*for phone*/
 @media only screen and (max-width:1085px) {
 
-    body {
+    body,
+    html {
         width: 100%;
     }
 
@@ -677,7 +678,7 @@ a {
 
     /*mainnav style*/
     .mainnav a {
-        font-size: 1.4vw;
+        font-size: 0.6rem;
         color: snow;
         padding: 1rem 0.5rem;
     }
@@ -687,7 +688,7 @@ a {
     }
 
     .ml15 span {
-        font-size: 3.3vw;
+        font-size: 3vw;
     }
 
     .go_top {
