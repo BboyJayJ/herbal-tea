@@ -245,6 +245,10 @@ a {
         width: 100%;
     }
 
+    .ml15 span {
+        font-size: 3vw;
+    }
+
 
     /*product style*/
     #product {
