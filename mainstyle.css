@@ -147,6 +147,8 @@ a {
     display: inline;
 }
 
+
+
 /*product style*/
 #product {
     padding: 5vw;
@@ -163,6 +165,17 @@ a {
     box-shadow: 0 0 10px #000;
     padding: 1vw;
     border-radius: 2% 2% 2% 2%;
+}
+
+#product h4 {
+    color: #22ac6c;
+    font-size: 2.5rem;
+    margin: 1.6vw;
+    background-color: snow;
+    width: 15%;
+    border-radius: 2% 2% 2% 2%;
+    padding: 0 0 0 2vw;
+    box-shadow: 0 0 8px #000;
 }
 
 
@@ -293,9 +306,10 @@ a {
     }
 
     #product h4 {
-        color: snow;
         font-size: 2.5rem;
-        margin: 1.8vw;
+        margin: 1.6vw;
+        width: 15%;
+        padding: 0 0 0 2vw;
     }
 
     #product p {
@@ -528,7 +542,7 @@ a {
         padding: 2vw;
         color: red;
         text-shadow: 0 0 8px #000;
-        font-size: 1.8vw;
+        font-size: 1.8rem;
     }
 
     #product h3 {
@@ -537,9 +551,9 @@ a {
     }
 
     #product h4 {
-        color: snow;
-        font-size: 2rem;
         margin: 1.8vw;
+        width: 20%;
+        padding: 0 0 0 2vw;
     }
 
     #product p {
@@ -696,9 +710,9 @@ a {
 
     /*mainnav style*/
     .mainnav a {
-        font-size: 0.7rem;
+        font-size: 1rem;
         color: snow;
-        padding: 1rem 0.5rem;
+        padding: 1.2rem 0.5rem;
     }
 
     #grass img {
@@ -739,7 +753,7 @@ a {
         padding: 2vw;
         color: red;
         text-shadow: 0 0 8px #000;
-        font-size: 1.8vw;
+        font-size: 1.8rem;
     }
 
     #product h3 {
@@ -748,9 +762,14 @@ a {
     }
 
     #product h4 {
-        color: snow;
+        color: #22ac6c;
         font-size: 2rem;
-        margin: 1.8vw;
+        margin: 1.6vw;
+        background-color: snow;
+        width: 20%;
+        border-radius: 2% 2% 2% 2%;
+        padding: 0 0 0 2vw;
+        box-shadow: 0 0 8px #000;
     }
 
     #product p {
