@@ -28,9 +28,25 @@ $(document).ready(function () {
         var windowHeight = $(window).height();
         var triggerPoint = positionFromTop - windowHeight + 200; // 觸發動畫滾動位置
 
+
         if ($(window).scrollTop() > triggerPoint) {
             $element.addClass('active1');
         }
+
+        /*fly-in EF3*/
+        var $element = $('.blogimg');
+        var positionFromTop = $element.offset().top;
+        var windowHeight = $(window).height();
+        var triggerPoint = positionFromTop - windowHeight + 200; // 觸發動畫滾動位置
+
+
+        if ($(window).scrollTop() > triggerPoint) {
+            $element.addClass('active2');
+        }
+
+        $(document).ready(function () {
+            $('.text').css('left', '0');  // 将文本滑入视野中
+        });
     });
     $(window).scroll();
 

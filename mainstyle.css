@@ -193,6 +193,7 @@ a {
     transform: translateX(0);
 }
 
+
 .fly-in1 {
     opacity: 0;
     transform: translateY(-100%);
@@ -200,6 +201,18 @@ a {
 }
 
 .fly-in1.active1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.fly-in2 {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+.fly-in2.active2 {
     opacity: 1;
     transform: translateY(0);
 }
@@ -217,9 +230,22 @@ a {
 }
 
 /*styletea style*/
+.blogimg>span>img {
+    width: 70%;
+}
+
+.blogimg>span>img:hover {
+    opacity: 0.8;
+}
+
+.blogimg {
+    padding: 1vw;
+}
+
 #styletea {
     background-color: #013f22;
     padding: 5vw;
+    box-shadow: 0 0 5px #000
 }
 
 #styletea>h3 {
@@ -231,44 +257,26 @@ a {
     margin: 1.8vw;
 }
 
-.styletext1 {
+.styletext {
     color: snow;
     line-height: 2rem;
 }
 
-.styletext1>p:nth-of-type(1) {
-    font-size: 2vw;
+.styletext>p:nth-of-type(1) {
+    font-size: 2.3vw;
     margin-top: 5rem;
 }
 
-.styletext1>p:nth-of-type(2) {
-    margin: 1.3vw;
-    font-size: 1.5rem;
+
+.text {
+    position: relative;
+    left: -100%;
+    transition: left 1s ease-in-out;
 }
 
-.styletext1 span>p {
-    font-size: 2vw;
-    color: snow;
-}
-
-.styletext2 {
-    color: snow;
-    line-height: 2rem;
-}
-
-.styletext2>p:nth-of-type(1) {
-    font-size: 2vw;
-    margin-top: 5rem;
-}
-
-.styletext2>p:nth-of-type(2) {
-    margin: 1.3vw;
-    font-size: 1.5rem;
-}
-
-.styletext2 span>p {
-    font-size: 2vw;
-    color: snow;
+.text p {
+    font-size: 1.5vw;
+    margin: 1.5vw;
 }
 
 /*history style*/
@@ -772,7 +780,7 @@ a {
 
     /*mainnav style*/
     .mainnav a {
-        font-size: 1rem;
+        font-size: 1.7vw;
         color: snow;
         padding: 1.2rem 0.5rem;
     }
@@ -862,13 +870,13 @@ a {
 
     #effect p {
         color: snow;
-        font-size: 1.5rem;
+        font-size: 1.5vw;
         margin: 1vw 15vw;
         padding: 0.5vw;
     }
 
     #effect>div>div>span:nth-of-type(1)>p {
-        font-size: 2rem;
+        font-size: 2vw;
         margin: 2vw 15vw;
     }
 
@@ -905,7 +913,7 @@ a {
 
 
     .tea>span>div>p {
-        font-size: 1.8rem;
+        font-size: 1.8vw;
         color: snow;
         padding: 0 1.5vw;
     }
@@ -948,7 +956,7 @@ a {
     }
 
     #history p {
-        font-size: 1.6rem;
+        font-size: 1.6vw;
         color: snow;
         margin: 1vw;
         text-align: start;
