@@ -282,6 +282,14 @@ a {
     margin-top: 13rem;
 }
 
+.remind {
+    padding: 3vw 7vw;
+    font-size: 2vw;
+    color: snow;
+    text-shadow: 0 0 5px #000;
+    margin: 0.5vw;
+}
+
 
 /*for pc*/
 @media only screen and (min-width:1225px) {
@@ -947,7 +955,7 @@ a {
     }
 
     #history p {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         color: snow;
         margin: 0.5vw;
         text-align: start;
