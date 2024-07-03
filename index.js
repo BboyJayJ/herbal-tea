@@ -45,7 +45,7 @@ $(document).ready(function () {
         }
 
         $(document).ready(function () {
-            $('.text').css('left', '0');  // 将文本滑入视野中
+            $('.text').css('left', '0');
         });
     });
     $(window).scroll();

@@ -156,14 +156,13 @@ a {
     margin: 3vw 8vw;
     background-color: #013f22;
     box-shadow: 0 0 10px black;
-    border-radius: 2% 0% 0% 0%;
+    border-radius: 1% 1% 1% 1%;
     width: 70%;
 }
 
 #product span>img {
     width: 50%;
     padding: 1vw;
-    border-radius: 2% 2% 2% 2%;
     margin-top: 1.5vw;
 }
 
@@ -224,7 +223,7 @@ a {
 
 #connection p {
     color: snow;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
 }
 
 /*styletea style*/
@@ -284,10 +283,14 @@ a {
 
 .remind {
     padding: 3vw 7vw;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: snow;
-    text-shadow: 0 0 5px #000;
+    text-shadow: 0 0 5px #111;
     margin: 0.5vw;
+}
+
+.remind i {
+    font-size: 1.5vw;
 }
 
 
@@ -350,11 +353,9 @@ a {
 
     /*product style*/
     #product {
-        padding: 5vw;
         margin: 3vw 8vw;
         background-color: #013f22;
-        box-shadow: 0 0 10px black;
-        border-radius: 5% 0% 0% 0%;
+        border-radius: 1% 1% 1% 1%;
         width: 70%;
     }
 
@@ -380,17 +381,13 @@ a {
     }
 
     #product h4 {
-        font-size: 2.5rem;
+        font-size: 2.5vw;
         margin: 1.6vw;
         width: 15%;
         padding: 0 0 0 2vw;
     }
 
-    #product p {
-        color: snow;
-        font-size: 1.8rem;
-        margin: 0 3vw;
-    }
+
 
     /*effect style*/
     #effect {
@@ -413,12 +410,12 @@ a {
 
     #effect p {
         color: snow;
-        font-size: 1.8rem;
+        font-size: 1.8vw;
         margin: 1vw 22vw;
     }
 
     #effect>div>div>span:nth-of-type(1)>p {
-        font-size: 2.2rem;
+        font-size: 2.2vw;
         margin: 1vw 20vw;
     }
 
@@ -465,7 +462,7 @@ a {
 
 
     .tea>span>div>p {
-        font-size: 2rem;
+        font-size: 1.8vw;
         color: snow;
         padding: 0 1vw;
     }
@@ -509,7 +506,7 @@ a {
     }
 
     #history p {
-        font-size: 1.8rem;
+        font-size: 1.8vw;
         color: snow;
         margin: 1vw;
         text-align: start;
@@ -596,7 +593,6 @@ a {
         margin: 3vw 8vw;
         background-color: #013f22;
         box-shadow: 0 0 10px black;
-        border-radius: 5% 0% 0% 0%;
         width: 70%;
     }
 
@@ -614,7 +610,7 @@ a {
         padding: 2vw;
         color: red;
         text-shadow: 0 0 8px #000;
-        font-size: 1.8rem;
+        font-size: 2vw;
     }
 
     #product h3 {
@@ -626,6 +622,7 @@ a {
         margin: 1.8vw;
         width: 20%;
         padding: 0 0 0 2vw;
+        font-size: 2.5vw;
     }
 
     #product p {
@@ -655,7 +652,7 @@ a {
 
     #effect p {
         color: snow;
-        font-size: 1.5rem;
+        font-size: 2vw;
         margin: 1vw 17vw;
     }
 
@@ -697,7 +694,7 @@ a {
 
 
     .tea>span>div>p {
-        font-size: 1.8rem;
+        font-size: 2vw;
         color: snow;
         padding: 0 3vw;
     }
@@ -727,6 +724,11 @@ a {
         color: red;
     }
 
+
+    .text p {
+        font-size: 1.8vw;
+    }
+
     /*history style*/
     #history {
         padding: 5vw;
@@ -740,7 +742,7 @@ a {
     }
 
     #history p {
-        font-size: 1.6rem;
+        font-size: 2vw;
         color: snow;
         margin: 1vw;
         text-align: start;
@@ -753,7 +755,7 @@ a {
 
     #connection p {
         color: snow;
-        font-size: 1.5rem;
+        font-size: 2vw;
     }
 
 }
@@ -806,7 +808,6 @@ a {
         margin: 3vw 8vw;
         background-color: #013f22;
         box-shadow: 0 0 10px black;
-        border-radius: 2% 0% 0% 0%;
         width: 70%;
     }
 
@@ -824,7 +825,7 @@ a {
         padding: 2vw;
         color: red;
         text-shadow: 0 0 8px #000;
-        font-size: 1.8rem;
+        font-size: 1.8vw;
     }
 
     #product h3 {
@@ -834,8 +835,8 @@ a {
 
     #product h4 {
         color: #22ac6c;
-        font-size: 2rem;
-        margin: 1.6vw;
+        font-size: 2.5vw;
+        margin: 1.8vw;
         width: 20%;
         border-radius: 2% 2% 2% 2%;
         padding: 0 0 0 2vw;
@@ -869,7 +870,7 @@ a {
 
     #effect p {
         color: snow;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
         margin: 1vw 15vw;
         padding: 0.5vw;
     }
@@ -942,6 +943,11 @@ a {
         color: red;
     }
 
+    .text p {
+        font-size: 1.8vw;
+        margin: 1.5vw;
+    }
+
     /*history style*/
     #history {
         padding: 5vw;
@@ -968,6 +974,6 @@ a {
 
     #connection p {
         color: snow;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 }
